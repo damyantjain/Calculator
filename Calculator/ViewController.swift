@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         if(!numbers.0){
             return
         }
-        resultLabel.text = "\(numbers.1 + numbers.2)"
+        resultLabel.text = String(format: "%.2f", numbers.1 + numbers.2)
     }
     
     @objc func onButtonClickDivide(){
@@ -74,7 +74,7 @@ class ViewController: UIViewController {
             showErrorAlert("Error", "Division by zero is not possible")
             resultLabel.text = "Result"
         } else {
-            resultLabel.text = "\(numbers.1 / numbers.2)"
+            resultLabel.text = String(format: "%.2f", numbers.1 / numbers.2)
         }
     }
     
@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         if(!numbers.0){
             return
         }
-        resultLabel.text = "\(numbers.1 - numbers.2)"
+        resultLabel.text = String(format: "%.2f", numbers.1 - numbers.2)
     }
     
     @objc func onButtonClickMultiply(){
@@ -91,7 +91,7 @@ class ViewController: UIViewController {
         if(!numbers.0){
             return
         }
-        resultLabel.text = "\(numbers.1 * numbers.2)"
+        resultLabel.text = String(format: "%.2f", numbers.1 * numbers.2)
     }
     
     func showErrorAlert(_ title:String, _ message:String){

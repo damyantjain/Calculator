@@ -1,5 +1,8 @@
 # Xcode
+
 DerivedData/
+*.xcuserstate
+*.xcworkspace
 *.xcuserdata
 
 # Swift Package Manager
@@ -14,3 +17,5 @@ Podfile.lock
 # Logs
 *.log
 
+# macOS
+.DS_Store

@@ -45,33 +45,33 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Operations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozh-NB-B7y">
-                                <rect key="frame" x="154.66666666666666" y="257.33333333333331" width="84" height="21"/>
+                                <rect key="frame" x="154.66666666666666" y="252.66666666666663" width="84" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAL-0Z-4Mn">
-                                <rect key="frame" x="169" y="294.33333333333331" width="55" height="35"/>
+                                <rect key="frame" x="169" y="289.66666666666669" width="55" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Add"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vu2-fI-c3S">
-                                <rect key="frame" x="151.66666666666666" y="345.33333333333331" width="90" height="35"/>
+                                <rect key="frame" x="151.66666666666666" y="340.66666666666669" width="90" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Subtract"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TJ-Wj-cui">
-                                <rect key="frame" x="154.66666666666666" y="396.33333333333331" width="84" height="35"/>
+                                <rect key="frame" x="154.66666666666666" y="391.66666666666669" width="84" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Multiply"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vG8-qN-O2f">
-                                <rect key="frame" x="160.66666666666666" y="447.33333333333331" width="72" height="35"/>
+                                <rect key="frame" x="160.66666666666666" y="442.66666666666669" width="72" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Divide"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPw-Ht-blN">
-                                <rect key="frame" x="170.66666666666666" y="498.33333333333331" width="52" height="18.999999999999943"/>
+                                <rect key="frame" x="170.66666666666666" y="493.66666666666669" width="52" height="19.000000000000057"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Result">
                                         <attributes>
@@ -83,7 +83,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSd-SI-pYx">
-                                <rect key="frame" x="98.333333333333329" y="217.66666666666666" width="196.66666666666669" height="15.666666666666657"/>
+                                <rect key="frame" x="84.333333333333329" y="211.66666666666666" width="224.33333333333337" height="17"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Note: Entry fields cannot be empty">
                                         <attributes>
@@ -117,7 +117,6 @@
                             <constraint firstItem="ozh-NB-B7y" firstAttribute="top" secondItem="lSd-SI-pYx" secondAttribute="bottom" constant="24" id="Y3t-c1-ZwN"/>
                             <constraint firstItem="g2D-qL-HXH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l0C-Q9-Y0I"/>
                             <constraint firstItem="fAL-0Z-4Mn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mwA-v8-m43"/>
-                            <constraint firstItem="lSd-SI-pYx" firstAttribute="top" secondItem="6Ri-FR-5iY" secondAttribute="bottom" constant="16" id="n7D-cU-DTf"/>
                             <constraint firstItem="6Ri-FR-5iY" firstAttribute="top" secondItem="WXG-h8-798" secondAttribute="bottom" constant="16" id="s1M-jN-vbp"/>
                             <constraint firstItem="ozh-NB-B7y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tzc-VV-Nbh"/>
                             <constraint firstItem="WXG-h8-798" firstAttribute="top" secondItem="g2D-qL-HXH" secondAttribute="bottom" constant="16" id="xja-yZ-DUN"/>

@@ -1,0 +1,16 @@
+# Xcode
+DerivedData/
+*.xcuserdata
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Logs
+*.log
+
